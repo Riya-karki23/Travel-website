@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# dotenv environment variable file
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directory for temporary files
+tmp/
+temp/
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE or Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm
+
+# eslint cache
+.eslintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage directory used by testing tools like istanbul
+coverage/
+
+# Optional REPL history
+.node_repl_history
+
+# Optional stylelint cache
+.stylelintcache
+
+# Dependency directori
+

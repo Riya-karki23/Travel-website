@@ -138,7 +138,16 @@ app.delete("/listings/:id",asyncWrap(async(req,res)=>{
     res.redirect("/listings");
 }));
 
+app.get("/about",(req,res)=>{
+    res.render("./listings/about.ejs");
+})
 
+app.get("/contact",(req,res)=>{
+    res.render("./listings/contact.ejs");
+})
+app.get("/msgSent",(req,res)=>{
+    res.render("./listings/msgSent.ejs")
+})
 app.all("*",(req,res,next)=>{
     next(new ExpressError(404,"page not found!!!!!!!!!"));
 })
